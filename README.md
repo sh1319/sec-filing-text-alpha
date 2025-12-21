@@ -40,6 +40,7 @@ backtesting rather than maximizing headline performance.
 
 ## Repository Structure
 
+```text
 notebooks/
 01_feature_maker.ipynb # Text feature engineering
 02_score_maker.ipynb # Labeling, modeling, daily alpha construction
@@ -54,7 +55,7 @@ daily_alpha/ # Daily alpha matrices (generated)
 
 cache/
 finbert/ # Cached NLP model outputs
-
+```
 
 ---
 
